@@ -9,7 +9,13 @@ app_license = "MIT"
 
 # Includes in <head>
 # ------------------
-
+jinja = {
+    "methods": [
+	"cstmapp.fatoora.getqrcode",
+	"cstmapp.data.money_in_words",
+	"cstmapp.print_format.encrypt"
+    ]
+}
 # include js, css files in header of desk.html
 # app_include_css = "/assets/cstmapp/css/cstmapp.css"
 # app_include_js = "/assets/cstmapp/js/cstmapp.js"
